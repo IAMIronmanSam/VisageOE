@@ -1,0 +1,2 @@
+This project is a simple Visage Editor with the Keyword highlighting fecility. Most of the editing is online and only for the front end. 
+This Project is a multiphase project and I am starting it from the front end development.
