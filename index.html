@@ -9,6 +9,7 @@
     		body{
     			background-color: white;
     		}
+            
     	</style>
     </head>
     <body>
@@ -29,6 +30,16 @@
       <div class="span7">
             <h1><small>Type your code here!!</small></h1>
       		<div style="width:400px;height:300px;" id="code"></div>
+                <div class="btn-group offset5">
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Compile</a></li>
+                  <li><a href="#">Build</a></li>
+                  <li><a href="#">Run</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">About Actions</a></li>
+                </ul>
+              </div>
       </div>
       <div class="span4"><h1><small>Use tools for Compilation/Run/Build!!</small></h1></div>
 </div>      
@@ -37,6 +48,7 @@
       <script src="javascript/jquery-1.8.1.js" type="text/javascript" charset="utf-8"></script>
       <script src="codemirror/lib/codemirror.js" type="text/javascript" charset="utf-8"></script>
       <script src="codemirror/mode/visage/visage.js" type="text/javascript" charset="utf-8"></script>
+      <script src="bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
       <script type="text/javascript" src="javascript/codeArea.js" charset="utf-8"></script>
     </body>
 </html>
