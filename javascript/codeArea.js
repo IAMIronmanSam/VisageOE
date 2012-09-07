@@ -1,0 +1,18 @@
+window.onload=function(){
+        	 var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+				value:code.value,
+				mode:'javascript',
+				lineNumbers: true,
+				matchBrackets: true,
+				indentUnit:2,
+				smartIndent:true,
+				tabSize:20,
+				indentWithTabs:false,
+				electricChars:true,
+				autoClearEmptyLines:true,
+				lineWrapping:true,
+				readOnly:false,
+				matchBrackets:true,
+				undoDepth:100
+				}); 
+    };
