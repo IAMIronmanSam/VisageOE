@@ -1,5 +1,7 @@
 $(document).ready(function(){
     
+    
+    
      var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
     			//value:code.value,
 				mode:'javascript',
@@ -16,6 +18,10 @@ $(document).ready(function(){
 				matchBrackets:true,
 				undoDepth:100
 				}); 
+    $('.themeClick').click(function(){
+        var theme=$(this).attr('theme');
+        editor.setOption('theme',theme);
+        });
     
     });
         	
