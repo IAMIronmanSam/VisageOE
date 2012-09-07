@@ -1,6 +1,7 @@
-window.onload=function(){
-        	 var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
-				value:code.value,
+$(document).ready(function(){
+    
+     var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+    			//value:code.value,
 				mode:'javascript',
 				lineNumbers: true,
 				matchBrackets: true,
@@ -15,4 +16,6 @@ window.onload=function(){
 				matchBrackets:true,
 				undoDepth:100
 				}); 
-    };
+    
+    });
+        	
